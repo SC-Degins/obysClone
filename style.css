@@ -213,7 +213,7 @@ body::-webkit-scrollbar{
     width: 100%;
     background-color: #151515;
     position: relative;
-    padding: 7vh 0;
+    padding: 6vh 0;
 }
 #page4-content {
     width: 72vw;
@@ -224,11 +224,11 @@ body::-webkit-scrollbar{
     font-size: 7vw;
     text-transform: uppercase;
 }
-#page4-content .under-line {
-    height: 1px;
+.under-line {
+    height: 1.7px;
     width: 90%;
-    background-color: #a7a7a797;
-    margin: 5vw 0;
+    background-color: #fffffff0;
+    margin: 4vw 0;
 }
 #page4-content>p {
     width: 50%;
@@ -273,7 +273,108 @@ body::-webkit-scrollbar{
     font-size: 1vw;
 }
 #page5 {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-color: #151515;
+    position: relative;
+}
+.elem{
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: -2.5vw;
+}
+.elem h1 {
+    font-family: "Plain Light";
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 16px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    animation-name: marquee;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.elem h1 i{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 21px));
+    }
+}
+.elem1{
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: -2.5vw;
+}
+.elem1 h1 {
+    font-family: "Plain Light";
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 16px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    animation-name: marquee;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateX(clac(-100% - 21px));
+    animation-direction: reverse;
+}
+.elem1 h1 i{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+.elem span {
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
+}
+.elem1 span {
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
+}
+#footer {
+    min-height: 140vh;
+    width: 76%;
+    margin-left: 24%;
+    padding: 5vw;
+}
+#footer span {
+    font-style: italic;
+    margin: -0.5vw;
+}
+#footer h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+    margin-bottom: 7vw;
+}
+#footer #footer-div {
+    display: flex;
+    gap: 8vw;
+    margin-top: 7vw;
+}
+#footer-div .box h6 {
+    font-size: 1vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+#footer-div .box h5 {
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+#footer-div .box:nth-child(2) h5 {
+    width: 12vw;
 }
