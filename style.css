@@ -1,9 +1,17 @@
+@font-face {
+    font-family: Plain-Light;
+    src: url("plain-light-webfont.ttf");
+}
+@font-face {
+    font-family: silk-serif;
+    src: url("silkserif-lightitalic-webfont.ttf");
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #fff;
-    font-family: "Plain Light";
+    font-family: Plain-Light;
     cursor: none;
 }
 html , body {
@@ -48,7 +56,7 @@ html , body {
 }
 #line1-part1 h5, #line1-part1 h6{
     font-size: 3vw;
-    font-family: "silk serif";
+    font-family: silk-serif;
     font-weight: 100;
 }
 #line1-part1 h5 {
@@ -72,28 +80,28 @@ html , body {
 }
 @keyframes loaderAnime {
     0%{
-        font-family: "Plain Light";
+        font-family: Plain-Light;
         -webkit-text-stroke: 1px  #fff;
         color: #fff;
         font-weight: 500;
         opacity: 1;
     }
     48%{
-        font-family: "Plain Light";
+        font-family: Plain-Light;
         -webkit-text-stroke: 1px  #fff;
         color: #fff;
         font-weight: 500;
         opacity: 0;
     }
     50%{
-        font-family: "silk serif";
+        font-family: silk-serif;
         -webkit-text-stroke: 1px #fff;
         color: transparent;
         font-weight: 500;
         opacity: 1;
     }
     100%{
-        font-family: "silk serif";
+        font-family: silk-serif;
         -webkit-text-stroke: 1px #fff;
         color: transparent;
         font-weight: 500;
@@ -131,7 +139,7 @@ html , body {
 }
 .heros {
     font-size: 3vw;
-    font-family: "silk serif";
+    font-family: silk-serif;
     position: relative;
     top: 9%;
     left: 20%;
@@ -185,7 +193,6 @@ html , body {
     margin-bottom: 10vw;
 }
 #video-container {
-    /* background-color: red; */
     width: 72vw;
     height: 65vh;
     position: relative;
@@ -221,7 +228,6 @@ html , body {
 #page3 {
     min-height: 100vh;
     width: 100%;
-    /* background-color: #393939; */
     position: relative;
     padding: 6vh 0;
     margin-bottom: 22vw;
@@ -240,13 +246,12 @@ html , body {
     content: "02";
     position: absolute;
     font-size: 3vw;
-    font-family: "silk serif";
+    font-family: silk-serif;
     left: -14%;
     font-weight: 400;
     top: 5%;
 }
 #image-div-container {
-    /* background-color: red; */
     width: 100%;
     padding: 3vw 5.5vw;
     display: flex;
@@ -395,7 +400,7 @@ html , body {
 }
 #all-project #span {
     font-style: italic;
-    font-family: "silk serif";
+    font-family: silk-serif;
     font-weight: 500;
 }
 #all-project:hover {
@@ -423,7 +428,7 @@ html , body {
     content: "03";
     position: absolute;
     font-size: 3vw;
-    font-family: "silk serif";
+    font-family: silk-serif;
     left: -14%;
     font-weight: 400;
     top: 5%;
@@ -483,13 +488,12 @@ html , body {
     position: relative;
 }
 .elem{
-    /* background-color: red; */
     white-space: nowrap;
     overflow-x: hidden;
     margin-bottom: -2.5vw;
 }
 .elem h1 {
-    font-family: "Plain Light";
+    font-family: Plain-Light;
     font-size: 7vw;
     text-transform: uppercase;
     font-weight: 400;
@@ -521,7 +525,7 @@ html , body {
     margin-bottom: -2.5vw;
 }
 .elem1 h1 {
-    font-family: "Plain Light";
+    font-family: Plain-Light;
     font-size: 7vw;
     text-transform: uppercase;
     font-weight: 400;
@@ -542,12 +546,12 @@ html , body {
 }
 .elem span {
     font-style: italic;
-    font-family: "silk serif";
+    font-family: silk-serif;
     color: transparent;
 }
 .elem1 span {
     font-style: italic;
-    font-family: "silk serif";
+    font-family: silk-serif;
     color: transparent;
 }
 #footer {
@@ -570,7 +574,7 @@ html , body {
     content: "04";
     position: absolute;
     font-size: 3vw;
-    font-family: "silk serif";
+    font-family: silk-serif;
     left: -14%;
     font-weight: 400;
     top: 5%;
